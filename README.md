@@ -1,7 +1,30 @@
-MLWineQualityPrediction
+Machine Learning Wine Quality Prediction
 ==============================
 
-A machine learning approach to wine quality prediction
+Traditional wine quality assessment methods are subjective and inconsistent, highlighting the need for a more objective approach. 
+This study introduces a machine learning-based model, utilizing the softmax classification, to predict the quality of Portuguese "Vinho Verde" wines from physicochemical properties. 
+Our work promises to revolutionize wine quality evaluation, offering enhanced consistency and objectivity for producers and consumers alike.
+
+
+# WineQualityPrediction
+
+The following sections detail some general notes for working with `WineQualityPrediction`, including setup, and
+various dependency requirements.
+
+## Prerequisites
+
+Install the following dependencies, ideally in a virtual environment such as
+ [mamba](https://github.com/conda-forge/miniforge#install) (faster) or [miniconda](https://docs.conda.io/en/latest/miniconda.html#linux-installers) (slower).
+
+***Please use python 3.8.***
+
+```bash
+# Recommended: use a virtual env (make sure the virtual env is installed on your machine)
+mamba create -n WineQualityPrediction python=3.8
+mamba activate WineQualityPrediction
+# Install requirements
+pip install -r requirements.txt
+```
 
 Project Organization
 ------------
